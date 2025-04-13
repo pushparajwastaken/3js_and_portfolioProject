@@ -23,3 +23,18 @@ Our Brain is the renderer-a renderer brings everything together on the screen
 ->points are a collection of small dots in a 3d space often used to create effects like stars or particles
 ->group is a collection of multiple objects
 ->sprite a 3d object that always faces the camera,it means it will always be visible no matter where we look
+
+---
+
+`Mesh`
+A mesh made up of two parts
+->geometry
+->material
+
+Geometry
+defines the shape and structure of a 3D object
+it has three properties
+-vertices,edges and faces
+Vertices are the corner points or positions in 3d space where edges meet,each vertex is a point in a space defined by its coordinates x y and z
+Edges are the lines that connect the lines you draw between dots to outline the shape of an object
+Faces are the surfaces of an object that are created by connecting edges together
