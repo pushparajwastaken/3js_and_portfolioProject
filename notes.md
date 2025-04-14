@@ -38,3 +38,14 @@ it has three properties
 Vertices are the corner points or positions in 3d space where edges meet,each vertex is a point in a space defined by its coordinates x y and z
 Edges are the lines that connect the lines you draw between dots to outline the shape of an object
 Faces are the surfaces of an object that are created by connecting edges together
+
+---
+
+`PERSPECTIVE CAMERA`
+PerspectiveCamera( fov : Number, aspect : Number, near : Number, far : Number )
+fov — Camera frustum vertical field of view.
+aspect — Camera frustum aspect ratio.
+near — Camera frustum near plane.
+far — Camera frustum far plane.
+
+Together these define the camera's viewing frustum.

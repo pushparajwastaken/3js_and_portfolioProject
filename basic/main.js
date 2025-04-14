@@ -16,7 +16,7 @@ camera.position.z = 5;
 const geometry = new THREE.RingGeometry();
 const material = new THREE.MeshLambertMaterial({
   color: "#FFFF00",
-  side: THREE.DoubleSide,
+
   emissive: "#FFFF00",
 });
 const ring = new THREE.Mesh(geometry, material);
