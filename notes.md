@@ -49,3 +49,6 @@ near — Camera frustum near plane.
 far — Camera frustum far plane.
 
 Together these define the camera's viewing frustum.
+
+`Hemisphere Lighting`
+-provides lighting from above and below the scene simulating light from the sky
