@@ -52,3 +52,59 @@ Together these define the camera's viewing frustum.
 
 `Hemisphere Lighting`
 -provides lighting from above and below the scene simulating light from the sky
+
+---
+
+`div vs section`
+The difference between using a `<div>` and a `<section>` in HTML lies in **semantic meaning** and **intended use**:
+
+---
+
+### 🔹 `<div>` — Generic Container
+
+- **Purpose**: A **generic** container with no inherent meaning.
+- **Used for**: Grouping elements purely for styling or scripting (with CSS or JavaScript).
+- **Semantics**: **None** — it's just a box.
+- **Example**:
+
+  ```html
+  <div class="sidebar">...</div>
+  ```
+
+---
+
+### 🔸 `<section>` — Semantic Section
+
+- **Purpose**: Represents a **thematic grouping of content**, typically with a heading.
+- **Used for**: Dividing a page into meaningful sections like “About Us,” “Contact,” “News,” etc.
+- **Semantics**: **Yes** — helps search engines, screen readers, and developers understand structure.
+- **Example**:
+
+  ```html
+  <section>
+    <h2>Latest Articles</h2>
+    <p>...</p>
+  </section>
+  ```
+
+---
+
+### ✅ When to Use What
+
+| Use Case                                                 | Use `<div>` | Use `<section>`            |
+| -------------------------------------------------------- | ----------- | -------------------------- |
+| Pure styling or layout                                   | ✅          | 🚫                         |
+| Grouping content **with a heading** and semantic meaning | 🚫          | ✅                         |
+| You want better accessibility/SEO                        | 🚫          | ✅                         |
+| Building a reusable layout block                         | ✅          | Maybe (depends on content) |
+
+---
+
+`overflow hidden`
+When applied to a block-level element (like a div), overflow: hidden:
+
+Hides any child content that spills outside the element’s box.
+
+Prevents scrollbars from appearing.
+
+Commonly used for layout control, clearing floats, or masking overflowing content.

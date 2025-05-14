@@ -1,9 +1,9 @@
-import React from "react";
+import Hero from "./sections/Hero.jsx";
 const App = () => {
   return (
-    <main>
-      <h1>Welcome to my Portfolio</h1>
-    </main>
+    <>
+      <Hero />
+    </>
   );
 };
 
