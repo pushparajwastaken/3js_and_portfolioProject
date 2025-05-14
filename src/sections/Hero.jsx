@@ -35,7 +35,6 @@ const Hero = () => {
               <h1>Being Curious.</h1>
             </div>
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              {" "}
               Hi,I am Pushparaj an Engineering first year student based in
               Bhopal,India.
             </p>
